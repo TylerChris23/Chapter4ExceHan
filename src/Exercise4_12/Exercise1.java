@@ -16,7 +16,7 @@ public class Exercise1 {
             num1 = scanner.nextInt();// read the first integer
         } catch (InputMismatchException e){
             // prints out message if num is not right
-            System.out.println("Invalid input. Please an integer.");
+            System.out.println("Invalid input. Please an integer:");
             return; //Exit the program
         }
         //Allows user to enter second  integer
